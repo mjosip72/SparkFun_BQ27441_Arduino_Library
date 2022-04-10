@@ -725,5 +725,3 @@ uint16_t BQ27441::i2cWriteBytes(uint8_t subAddress, uint8_t * src, uint8_t count
 	
 	return true;	
 }
-
-BQ27441 lipo; // Use lipo.[] to interact with the library in an Arduino sketch

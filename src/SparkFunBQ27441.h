@@ -541,7 +541,6 @@ private:
 	uint16_t i2cWriteBytes(uint8_t subAddress, uint8_t * src, uint8_t count);
 };
 
-extern BQ27441 lipo; // Use lipo.[] to interact with the library in an Arduino sketch
 // Thanks for reading!
 
 #endif
